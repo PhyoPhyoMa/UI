@@ -16,7 +16,7 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<script src="{{ url_for('static', filename='js/app.js')}}"></script>
 		<style>
-			#name{width: 100%; height: 500px; }
+			.textareasize{width: 100%; height: 500px; }
 			.btn {
    				 border: none; /* Remove borders */
    				 color: white; /* Add a text color */
@@ -66,7 +66,7 @@
       <input class="with-gap" name="input" type="radio" value="winmyanmar" />
       <span>WinMyanmar</span>
     </label>
-	</p><br><textarea id="source" ></textarea></div>
+	</p><br><textarea class="textareasize" id="source" ></textarea></div>
 	 <div style="width:50%;overflow:hidden"><h5>Output:</h5>
 		<p>
     <label>
@@ -83,7 +83,7 @@
       <input class="with-gap" name="output" type="radio" value="winmyanmar"  />
       <span>WinMyanmar</span>
     </label>
-	</p><br><textarea id="destination" ></textarea></div></form>
+	</p><br><textarea  class="textareasize" id="destination" ></textarea></div></form>
   <p align ="center"><button type='submit'class="btn success" >Convert</button></p>
 		<footer class="mdl-mega-footer">
   <div class="mdl-mega-footer__middle-section">
