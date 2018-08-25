@@ -4,7 +4,7 @@ $(document).ready(function(){
 			type: "POST",
 			url: "/convert",
 			success: function(response){
-				console.log(response);
+				
 			},
 			data: {
 				myinput: $('input[name=input]:checked').val(),
@@ -17,7 +17,7 @@ $(document).ready(function(){
 				// Do something
 			}
 			else{
-				console.log("ehlo");
+				
 				$("#destination").val(data.output).show();
 			}
 		});
