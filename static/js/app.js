@@ -8,7 +8,7 @@ $(document).ready(function(){
 			},
 			data: {
 				myinput: $('input[name=input]:checked').val(),
-				myoutput: $('input[name=output:checked').val(),
+				myoutput: $('input[name=output]:checked').val(),
 				source: $('#source').val()
 			}
 		})
