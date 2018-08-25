@@ -48,47 +48,47 @@
       </ul>
     </div>
   </nav>
-		<br>
+  <br><form>
 		<div style="width:50%;float:left;overflow:hidden"><h5>Input:</h5>
 		<p>
     <label>
-      <input class="with-gap" name="group3" type="radio" checked />
+      <input class="with-gap" name="input" type="radio" value="zawgyi" checked />
       <span>Zawgyi</span>
     </label></p>
 	<p>
     <label>
-      <input class="with-gap" name="group3" type="radio" />
+      <input class="with-gap" name="input" type="radio" value="unicode" />
       <span>Unicode</span>
     </label></p>
 	<p>
     <label>
-      <input class="with-gap" name="group3" type="radio" checked />
-      <span>Wincode</span>
+      <input class="with-gap" name="input" type="radio" value="winmyanmar" />
+      <span>WinMyanmar</span>
     </label>
-  </p><br><textarea id="name" ></textarea></div>
-  <div style="width:50%;overflow:hidden"><h5>Output:</h5>
+	</p><br><textarea id="name" ></textarea></div></form>
+	<form> <div style="width:50%;overflow:hidden"><h5>Output:</h5>
 		<p>
     <label>
-      <input class="with-gap" name="group4" type="radio" checked />
+      <input class="with-gap" name="output" type="radio" value="zawgyi"  />
       <span>Zawgyi</span>
     </label></p>
 	<p>
     <label>
-      <input class="with-gap" name="group4" type="radio" />
+      <input class="with-gap" name="output" type="radio" value="unicode" />
       <span>Unicode</span>
     </label></p>
 	<p>
     <label>
-      <input class="with-gap" name="group4" type="radio" checked />
-      <span>Wincode</span>
+      <input class="with-gap" name="output" type="radio" value="winmyanmar"  />
+      <span>WinMyanmar</span>
     </label>
-  </p><br><textarea id="name" ></textarea></div>
-  <p align ="center"><button class="btn success" >Convert</button></p>
+	</p><br><textarea id="name" ></textarea></div></form>
+  <p align ="center"><button type='submit'class="btn success" >Convert</button></p>
 		<footer class="mdl-mega-footer">
   <div class="mdl-mega-footer__middle-section">
 
     <div class="mdl-mega-footer__drop-down-section">
-      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" >
       <h1 class="mdl-mega-footer__heading">Features</h1>
       <ul class="mdl-mega-footer__link-list">
         <li><a href="../static/aboutus.html">About us</a></li>
