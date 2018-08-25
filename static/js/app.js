@@ -1,9 +1,9 @@
 $(document).ready(function(){
-	$('form').on('submit', funtion(event){
+	$('form').on('submit', function(event){
 		$.ajax({
 			type: "POST",
 			url: "/convert",
-			success: functiion(response){
+			success: function(response){
 				console.log(response);
 			},
 			data: {
