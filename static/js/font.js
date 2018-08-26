@@ -8,7 +8,7 @@ $('input[type=radio][name=input]').change(function(){
 			$('#source').css("font-family", "Pyidaungsu");
 		}
 		if (this.value == 'winmyanmar') {
-			$('#source').css("font-family", "Win-Innwa");
+			$('#source').css("font-family", "win_innwaregular");
 		}
 	});
 
@@ -20,7 +20,7 @@ $('input[type=radio][name=output]').change(function(){
 		$("#destination").css("font-family", "Pyidaungsu");
 	}
 	if (this.value == 'winmyanmar'){
-		$('#destination').css("font-family", "Win-Innwa");
+		$('#destination').css("font-family", "win_innwaregular");
 	}
 });
 });
