@@ -20,6 +20,13 @@
 		<link rel="stylesheet" href='https://mmwebfonts.comquas.com/fonts/?font=zawgyi' />
 		<script src="../static/js/font.js"></script>
 		<style>
+			@font-face { 
+				font-family: 'win_innwaregular';
+				src: url("{{url_for('static', filename='wininnwa-webfont.woff2')}}") format('woff2'),
+					url("{{url_for('static', filename='wininnwa-webfont.woff')}}") format('woff');
+					font-weight: normal;
+					font-style: normal;
+			}
 			.textareasize{width: 100%; height: 500px; }
 			.btn {
    				 border: none; /* Remove borders */
