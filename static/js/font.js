@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 $('input[type=radio][name=input]').change(function(){
 		if (this.value == 'zawgyi') {
-			consloe.log("Zawgyi selected");
+			console.log("Zawgyi selected");
 		}
 		else if (this.value == 'unicode') {
 			console.log("Uicode selected");
