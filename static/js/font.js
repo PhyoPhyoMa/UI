@@ -2,19 +2,25 @@ $(document).ready(function(){
 
 $('input[type=radio][name=input]').change(function(){
 		if (this.value == 'zawgyi') {
-			console.log("Zawgyi selected");
+			$('#source').css("font-family", "Zawgyi-One");
 		}
-		else if (this.value == 'unicode') {
-			console.log("Uicode selected");
+		if (this.value == 'unicode') {
+			$('#source').css("font-family", "Pyidaungsu");
+		}
+		if (this.value == 'winmyanmar') {
+			$('#source').css("font-family", "Win-Innwa");
 		}
 	});
 
 $('input[type=radio][name=output]').change(function(){
 	if (this.value == 'zawgyi') {
-		console.log("Zawgyi selected");
+		$("#destination").css("font-family" , "Zawgyi-One");
 	}
-	else if (this.value == 'unicode') {
-		console.log("Unicode selected");
+	if (this.value == 'unicode') {
+		$("#destination").css("font-family", "Pyidaungsu");
+	}
+	if (this.value == 'winmyanmar'){
+		$('#destination').css("font-family", "Win-Innwa");
 	}
 });
 });
