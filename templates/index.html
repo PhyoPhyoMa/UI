@@ -19,6 +19,13 @@
 		<link rel="stylesheet" href='https://mmwebfonts.comquas.com/fonts/?font=pyidaungsu' />
 		<link rel="stylesheet" href='https://mmwebfonts.comquas.com/fonts/?font=zawgyi' />
 		<script src="../static/js/font.js"></script>
+		<script type="text/javascript">
+			function clearText(){
+				document.getElementById("source").value=""
+				document.getElementById("destination").value=""
+			}
+		</script>
+
 		<style>
 			@font-face { 
 				font-family: 'win_innwaregular';
@@ -56,7 +63,7 @@
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a ><i class="material-icons">content_copy</i>  </a></li>
        <li> <a ><i class="material-icons">content_paste</i> </a></li>
-        <li><a href="sass.html"><i class="material-icons">delete</i></a></li>
+        <li><a href="sass.html"><i class="material-icons" onclick="ClearText()">delete</i></a></li>
       </ul>
     </div>
   </nav>
