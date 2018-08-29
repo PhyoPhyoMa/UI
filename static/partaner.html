@@ -1,126 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link rel="stylesheet" href="css/material.min.css">
-	<script src="js/material.min.js"></script>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	
-	<!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title>Partners</title>
-	<!-- Square card -->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
 
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
 
-  </head>
-  <body>
-    <h4>We are a team of internship students from Computer University (Mandalay). </h4>
-	<h4>Our team name is Lima-Mdy-Geo.
+.title {
+  color: grey;
+  font-size: 18px;
+}
 
-	<div class="col s12 m7">
-    <div class="card horizontal">
-      <div class="card-image">
-        <img src="phyo.jpg">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <p><h4>Ma Phyo Phyo Ma<br>5CS-77<br>Team Lead,<br>Lead Developer + DevOps</h4></p>
-        </div>
-        <div class="card-action">
-          <a href="https://PhyoPhyoMa.github.io">Personal Github Page</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <br>
-  <div class="col s12 m7">
-    <div class="card horizontal">
-      <div class="card-image">
-        <img src="zinzin.jpg">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <p><h4>Ma Zin Mar Lwin<br>5CS-79<br>UI/UX Lead</h4></p>
-        </div>
-        <div class="card-action">
-          <a href="https://Zinmarlwin711.github.io">Personal Github Page</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <br>
-  <div class="col s12 m7">
-    <div class="card horizontal">
-      <div class="card-image">
-        <img src="eithu.png">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <p><h4>Ma Ei Thu Zar Htun<br>5CS-75<br>Dev1</h4></p>
-        </div>
-        <div class="card-action">
-          <a href="https://eithuzartun.github.io">Personal Github Page</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <br>
-  <div class="col s12 m7">
-    <div class="card horizontal">
-      <div class="card-image">
-        <img src="khin.jpg">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <p><h4>Ma Khin Yadanar Tun<br>5CS-80<br>Dev2</h4></p>
-        </div>
-        <div class="card-action">
-          <a href="https://KhinYadanarTun.github.io">Personal Github Page</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <br>
-  <div class="col s12 m7">
-    <div class="card horizontal">
-      <div class="card-image">
-        <img src="san.jpg">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <p><h4>Ma San San Aye<br>5CS-78<br>UI/UX Dev</h4></p>
-        </div>
-        <div class="card-action">
-          <a href="https://sansanaye12.github.io">Personal Github Page</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <br>
-  <div class="col s12 m7">
-    <div class="card horizontal">
-      <div class="card-image">
-        <img src="poe.jpg">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <p><h4>Ma Poe Thel Phyu<br>5CS-76<br>Test & Documentation</h4></p>
-        </div>
-        <div class="card-action">
-          <a href="https://Poethalphyu.github.io">Personal Github Page</a>
-        </div>
-      </div>
-    </div>
-  </div>
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+</style>
+</head>
+<body>
+
+
+
+<body>
+
+<h2><p align="center"><font color="blue">We are a team of internship students from Computer University (Mandalay).<br>
+	Our team name is Lima-Mdy-Geo.</font></p></h2>
+
+<div class="card">
+  <img src="phyo.jpg" alt="phyo" style="width:100%">
+  <h1>Ma Phyo Phyo Ma</h1>
+  <p class="title">Team Lead,<br>Lead Developer + DevOps</p>
+  <p>5CS-77</p>
   
-  </body>
-</html>
+ <button type="button" onclick="location.href='https://PhyoPhyoMa.github.io';">Personal Github Page</button>
+</div><br>
+<div style="width:50%;float:left;overflow:hidden">
+<div class="card">
+  <img src="zinzin.jpg" alt="phyo" style="width:100%">
+  <h1>Ma Zin Mar Lwin</h1>
+  <p class="title">UI/UX Lead </p>
+  <p>5CS-79</p>
+  
+ <button type="button" onclick="location.href='https://Zinmarlwin711.github.io';">Personal Github Page</button>
+</div></div>
+<br>
+<div style="width:50%;overflow:hidden">
+<div class="card">
+  <img src="san.jpg" alt="phyo" style="width:100%">
+  <h1>Ma San San Aye</h1>
+  <p class="title">UI/UX Dev</p>
+  <p>5CS-78</p>
+  
+ <button type="button" onclick="location.href='https://sansanaye12.github.io';">Personal Github Page</button>
+</div></div>
+<br>
+<div style="width:50%;float:left;overflow:hidden">
+<div class="card">
+  <img src="eithu.png" alt="phyo" style="width:100%">
+  <h1>Ma Ei Thu Zar Htun</h1>
+  <p class="title">Dev1</p>
+  <p>5CS-75</p>
+  
+ <button type="button" onclick="location.href='https://eithuzartun.github.io';">Personal Github Page</button>
+</div></div>
+<br>
+<div style="width:50%;overflow:hidden">
+<div class="card">
+  <img src="khin.jpg" alt="phyo" style="width:100%">
+  <h1>Ma Khin Yadanar Tun</h1>
+  <p class="title">Dev2</p>
+  <p>5CS-80</p>
+  
+ <button type="button" onclick="location.href='https://KhinYadanarTun.github.io';">Personal Github Page</button>
+</div></div>
+<br>
+
+
+<div class="card">
+  <img src="poe.jpg" alt="phyo" style="width:100%">
+  <h1>Ma Poe Thel Phyu</h1>
+  <p class="title">Test & Documentation</p>
+  <p>5CS-76</p>
+  
+ <button type="button" onclick="location.href='https://Poethalphyu.github.io';">Personal Github Page</button>
+</div>
+<br>
+
+
+</body>
+</html> 
